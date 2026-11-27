@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visit | Kala Café</title><meta name="description" content="Opening hours, address, table booking and questions for Kala Café.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='black'/%3E%3Ctext x='16' y='23' font-size='22' text-anchor='middle' fill='white' font-family='serif'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;1,500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><a class="logo" href="index.html">Kala Café</a><button class="mt" aria-expanded="false" aria-label="Menu">Menu</button>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Visit</a><a class="cta" href="contact.html#book">Book a table</a></nav></header><main>
+<div class="page-title"><h1>Visit</h1><p>Walk in any time, or book a table for a group.</p></div>
+<section class="sec"><div class="two"><div><h2>Find us</h2><div class="map" role="img" aria-label="Map placeholder">Map goes here</div>
+<p>12 Main Road, your town<br>Phone: <a href="tel:+910000000000">+91 00000 00000</a><br>Email: <a href="mailto:hello@kalacafe.example">hello@kalacafe.example</a></p>
+<h2 style="margin-top:2rem">Hours</h2><table class="hours"><tr><td>Monday to Friday</td><td>7 am to 10 pm</td></tr><tr><td>Saturday</td><td>7 am to 11 pm</td></tr><tr><td>Sunday</td><td>8 am to 10 pm</td></tr></table></div>
+<div id="book"><h2>Book a table</h2><form action="mailto:hello@kalacafe.example" method="post" enctype="text/plain">
+<label>Name<input name="name" required></label><label>Phone<input name="phone" type="tel" required></label>
+<label>Date<input name="date" type="date" required></label><label>Guests<select name="guests"><option>1 to 2</option><option>3 to 4</option><option>5 to 8</option><option>9 or more</option></select></label>
+<label>Notes<textarea name="notes" rows="3"></textarea></label><button class="btn" type="submit">Send booking request</button></form></div></div></section>
+<section class="band"><div class="sec"><h2>Questions</h2>
+<details><summary>Do you have Wi-Fi?</summary><p>Yes, it is free. Ask at the counter for the password.</p></details>
+<details><summary>Can I bring my laptop?</summary><p>Of course. We have sockets at most tables and welcome long working sessions.</p></details>
+<details><summary>Do you serve vegan options?</summary><p>Yes. Any white coffee can be made with oat milk, and several bakes are vegan on request.</p></details>
+<details><summary>Do you host events?</summary><p>We host book clubs, small workshops and private gatherings. Email us for dates.</p></details></div></section>
+</main><footer><div class="fg">
+<div><h3>Kala Café</h3><p>A small coffee bar serving black and white coffee, fresh bakes and light meals. Everything made by hand, every day.</p></div>
+<div><h3>Explore</h3><ul><li><a href="menu.html">Menu</a></li><li><a href="about.html">Our story</a></li><li><a href="contact.html">Visit us</a></li></ul></div>
+<div><h3>Contact</h3><ul><li>12 Main Road, your town</li><li><a href="tel:+910000000000">+91 00000 00000</a></li><li><a href="mailto:hello@kalacafe.example">hello@kalacafe.example</a></li></ul></div>
+</div><p class="copy">© 2026 Kala Café. Open daily, 7 am to 10 pm.</p></footer><script>var b=document.querySelector('.mt'),n=document.querySelector('nav');b.onclick=function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)}</script></body></html>
